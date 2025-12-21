@@ -1,0 +1,16 @@
+//to run this notebook, you need to create a python virtual environment in your projects folder
+
+1. cd your-project-folder
+2. python3 -m venv .venv - Creates a .venv virtual environment
+3. source .venv/bin/activate - activates the virtual environment and control is placed into ot
+4. pip install jupyterlab numpy - install dependencies
+5. pip install ipykernel
+   python -m ipykernel install --user --name numpy-env --display-name "Python (numpy-env)"
+6. Now your environment shows up in jupyter as Python (numpy-env)
+
+
+To activate this environment again:
+
+cd your-project-folder
+source .venv/bin/activate
+jupyter lab
