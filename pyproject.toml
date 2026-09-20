@@ -6,6 +6,7 @@ dependencies = [
     "ipykernel>=6.31.0",
     "matplotlib>=3.9.4",
     "numpy>=2.0.2",
+    "transformers>=4.57.6",
 ]
 
 [dependency-groups]
